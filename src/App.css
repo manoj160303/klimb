@@ -2,3 +2,12 @@
 *{
     font-family: "Outfit", sans-serif;
 }
+#quiz-section{
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+}

@@ -36,7 +36,7 @@ const Navbar = ({ onGetStartedClick }) => {
                 <ul className="hidden lg:flex list-none gap-8 m-0 p-0 items-center">
                     <li>
                         <a
-                            href="#home"
+                            href="/"
                             className="no-underline text-gray-800 font-medium text-base transition-colors duration-200 hover:text-blue-600"
                         >
                             Home
