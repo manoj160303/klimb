@@ -1,6 +1,4 @@
-import React from "react";
 import  logo from "../assets/klimb-logo.jpg"
-import QuizLaunch from "./QuizLaunch";
 
 const Hero = () => {
     return (

@@ -28,7 +28,7 @@ const testimonials = [
 ];
 
 const Testimonial = () => (
-    <section className="py-12 bg-gray-50">
+    <section className="py-12 bg-gray-50 min-h-[90vh] flex flex-col items-center justify-center">
         <h2 className="text-3xl font-bold text-center mb-8 text-gray-800">What Our Users Say</h2>
         <div className="flex flex-wrap justify-center gap-8">
             {testimonials.map((tests, idx) => (
