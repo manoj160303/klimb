@@ -54,13 +54,13 @@ const JourneyTrack = () => {
                 willChange: "transform"
             }}
         >
-            {steps.map((step, idx) => (
+            {steps.map((step, index) => (
                 <div
                     className="min-w-[260px] bg-white rounded-xl shadow-md flex flex-col items-center p-6 transition-transform hover:scale-105 snap-start"
-                    key={idx}
+                    key={index}
                 >
                     <div className="text-4xl mb-3">{step.icon}</div>
-                    <div className="text-sm text-blue-500 font-semibold mb-1">Step {idx + 1}</div>
+                    <div className="text-sm text-blue-500 font-semibold mb-1">Step {index + 1}</div>
                     <div className="text-lg font-bold text-gray-700 mb-2 text-center">{step.title}</div>
                     <div className="text-gray-500 text-center">{step.desc}</div>
                 </div>

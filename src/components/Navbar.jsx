@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import  logo from "../assets/klimb-logo.jpg"
 const Navbar = ({ onGetStartedClick }) => {
     // Scroll to quiz section by id

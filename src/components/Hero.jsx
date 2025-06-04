@@ -1,5 +1,6 @@
 import React from "react";
 import  logo from "../assets/klimb-logo.jpg"
+import QuizLaunch from "./QuizLaunch";
 
 const Hero = () => {
     return (
@@ -29,12 +30,21 @@ const Hero = () => {
                 </p>
 
                 {/* Start Button */}
-                <button className="px-8 py-3 bg-blue-500 text-white rounded-full font-semibold text-lg shadow-lg hover:bg-blue-600 transition-all animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
+                <button
+                    className="px-8 py-3 bg-blue-500 text-white rounded-full font-semibold text-lg shadow-lg hover:bg-blue-600 transition-all animate-fade-in-up"
+                    style={{ animationDelay: "0.3s" }}
+                    onClick={() => {
+                        const quizSection = document.getElementById("quiz-section");
+                        if (quizSection) {
+                            quizSection.scrollIntoView({ behavior: "smooth" });
+                        }
+                    }}
+                >
                     Start Your Quiz
                 </button>
-            </div>
+                </div>
 
-            {/* Tailwind custom animations */}
+                {/* Tailwind custom animations */}
             <style>
                 {`
                     .animate-fade-in-up {
