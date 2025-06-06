@@ -20,7 +20,7 @@ const Navbar = ({ onGetStartedClick }) => {
         <nav className="sticky top-0 w-full bg-white shadow-md z-50">
             <div className="max-w-6xl mx-auto flex items-center justify-between py-3 px-6">
                 <div className="font-bold text-2xl tracking-wider shadow-gray-600 flex items-center">
-                    <img src={logo} className="w-12 h-12 rounded-full" alt="" />
+                    <img src={logo} className="w-12 h-12 rounded-full shadow-lg" alt="" />
                 </div>
                 {/* Hamburger menu button */}
                 <button
